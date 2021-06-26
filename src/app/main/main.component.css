@@ -1,6 +1,6 @@
 .mainContent {
     background-image: url(src/assets/bg.png);
-    background-size: 100%;
+    background-size: 200%;
 }
 
 a {
@@ -12,3 +12,31 @@ a:hover {
     color: rgb(161, 161, 161);
 }
 
+.display-image {
+    width: 200px;
+    border-radius: 50%;
+    border: 8px solid #212529;
+}
+
+.name-style {
+    font-size: 45px;
+}
+
+.title-style {
+    font-size: 25px;
+}
+  
+@media (min-width: 600px) {
+    .mainContent {
+        background-size: 100%;
+    }
+    .display-image {
+        width: 250px;
+    }
+    .name-style {
+        font-size: 80px;
+    }
+    .title-style {
+        font-size: 40px;
+    }
+}
