@@ -1,6 +1,7 @@
 .mainContent {
   background-image: url(src/assets/bg_colorful.png);
-  background-size: 200%;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .squish-center {
@@ -32,9 +33,6 @@ a:hover {
 }
 
 @media (min-width: 600px) {
-  .mainContent {
-    background-size: 100%;
-  }
   .display-image {
     width: 250px;
   }
