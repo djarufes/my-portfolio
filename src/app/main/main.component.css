@@ -1,6 +1,11 @@
 .mainContent {
-  background-image: url(src/assets/bg.png);
+  background-image: url(src/assets/bg_colorful.png);
   background-size: 200%;
+}
+
+.squish-center {
+  margin-left: 10%;
+  margin-right: 10%
 }
 
 a {
