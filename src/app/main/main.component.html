@@ -1,4 +1,4 @@
-<div class="container-fluid bg-dark" style="position:fixed;">
+<div class="container-fluid bg-dark border-bottom border-info border-3" style="position:fixed;">
   <div class="row justify-content-end">
     <div class="col mx-auto">
       <div class="row">
@@ -11,7 +11,7 @@
       <a class="nav-link px-0" href="#projects">PROJECTS</a>
     </div>
     <div class="col-auto">
-      <a class="nav-link px-0" href="#resume">RESUME</a>
+      <a class="nav-link px-0" href="#documents">DOCS</a>
     </div>
     <div class="col-auto">
       <a class="nav-link px-0" href="#contact">CONTACT</a>
@@ -32,7 +32,7 @@
       </div>
     </div>
     <div class="row m-0 pb-4">
-      <div class="col text-light text-center lead title-style">
+      <div class="col text-light text-center lead title-style squish-center">
         <b>Graduate Computer Engineer at Purdue University</b>
       </div>
     </div>
@@ -44,8 +44,8 @@
     <div class="row m-0 pb-4">
       <div class="col bg-dark text-light p-5 rounded-3 squish-center" style="font-size: large;" align="justify">
         <p>
-          I'm a hardworking and reliable graduate student seeking a summer internship / co-op where I can contribute my technical, 
-          teamwork and critical thinking skills while utilizing my Computer Engineering expertise.
+          Hardworking and reliable graduate student seeking a summer internship / co-op where I can contribute my technical, 
+          teamwork and critical thinking skills while utilizing my Computer Engineering / Science expertise.
         </p>
         <p>
           While obtaining the undergraduate degree in this field, my 4 semester-long participation in the Purdue ViP forest inventory computer 
@@ -65,7 +65,7 @@
     </div>
     <div class="row m-0 pb-4">
       <div class="col text-light title-style lead squish-center">
-        <b>Projects</b>
+        <b>Most Recent Projects</b>
       </div>
     </div>
     <div class="row m-0 pb-4 mb-5">
@@ -182,10 +182,12 @@
           <div class="col" align="justify" style="font-size: large;">
             <b>Advanced Encryption Standard (AES)</b>
             <p class="text-info">February 2021</p>
-            <p>Developed a script to execute the encryption and decryption sides of the AES algorithm utilizing a 256-bit 
-            key size. Each round of AES involved four steps: single-byte based substitution, row-wise permutation, 
-            column-wise mixing, and addition of the round key. As well, a key expansion algorithm was used to create a key
-            schedule that was applied thoughout the encryption and decription stages of AES.</p>
+            <p>
+              Developed a script to execute the encryption and decryption sides of the AES algorithm utilizing a 256-bit 
+              key size. Each round of AES involved four steps: single-byte based substitution, row-wise permutation, 
+              column-wise mixing, and addition of the round key. As well, a key expansion algorithm was used to create a key
+              schedule that was applied thoughout the encryption and decription stages of AES.
+            </p>
             <span class="text-info">Python</span>
           </div>
         </div>
@@ -195,7 +197,29 @@
       <div class="col bg-dark text-light p-5 rounded-3 squish-center">
         <div class="row justify-content-center">
           <div class="col col-auto">
-            <a href="assets/p7_CPU_Block_Diagram.svg" target="_blank"><img class="rounded-3" style="width: 400px;" src="assets/p7_Multicore.png"/></a>
+            <a href="" target="_blank"><img class="rounded-3" style="width: 400px;" src="assets/p7_router.png"/></a>
+          </div>
+          <div class="col" align="justify" style="font-size: large;">
+            <b>Distance Vector Routing</b>
+            <p class="text-info">November 2020</p>
+            <p>
+              Implemented a simplified version of the path vector routing protocol where each router attempts to find the shortest 
+              path to all other routers in the system in a distributed manner. The program begins by initializing all routers which
+              bind to a distinct UDP port. Concurrently, a routing table is initialized containing the remote router id, the cost of
+              path to all neighbouring routers, and the next hop to the neighboring routers. The contents of the routing table are
+              then updated as the routers communicate to find the shortest path between them utilizing the path vector protocol. 
+              On a simulated router's failure, new paths are found to maintain the lowest cost between all connections.
+            </p>
+            <span class="text-info">C++</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row m-0 pb-4 my-5">
+      <div class="col bg-dark text-light p-5 rounded-3 squish-center">
+        <div class="row justify-content-center">
+          <div class="col col-auto">
+            <a href="assets/p8_CPU_Block_Diagram.svg" target="_blank"><img class="rounded-3" style="width: 400px;" src="assets/p8_Multicore.png"/></a>
           </div>
           <div class="col" align="justify" style="font-size: large;">
             <b>Multi-Core Processor</b>
@@ -207,24 +231,68 @@
               program counter, forwarding unit, register file, arithmetic logic unit, coherence control unit, memory control, RAM, 
               as well as the pipeline stages for instruction fetch, instruction decode, instruction execute, memory access, and 
               write back.
-              
             </p>
             <span class="text-info">SystemVerilog</span>
           </div>
         </div>
       </div>
     </div>
-    <div class="row m-0 pb-4" id="resume">
-      <div class="col text-light title-style lead mx-5">Resume</div>
+    <div class="row pb-4 m-0">
+      <div class="col bg-dark text-light p-5 rounded-3 squish-center">
+        <div class="row justify-content-center">
+          <div class="col col-auto">
+            <a href="" target="_blank"><img class="rounded-3" style="width: 400px;" src="assets/p9_server_client.png"/></a>
+          </div>
+          <div class="col" align="justify" style="font-size: large;">
+            <b>Two-Stage HTTP Client - Letter-Shift HTTP Server - Concurrent Web Server - Multi-Service Server</b>
+            <p class="text-info">September 2020</p>
+            <p>
+              Created a network applications on top of the transport layer using network programming (also called socket programming). 
+              Began by modifying an opensource HTTP client and server to fit my needs. After that, I enhanced my server to be 
+              able to respond to concurrent requests and make it able to handle not only HTTP requests, but also multiple services 
+              such as UDP pinging. To add, the server had the ability to encrypt files being transfered with Caesar Cipher using the
+              shift number passed to the server in the GET command.
+            </p>
+            <span class="text-info">C++</span>
+          </div>
+        </div>
+      </div>
     </div>
-    <div class="row m-0 pb-4 mb-5">
-      <div class="col bg-dark text-light mx-5 py-5">Access my resume</div>
+    <div class="row m-0 pb-4 justify-content-center">
+      <div class="col col-auto text-light title-style lead squish-center">
+        <button type="button" class="btn btn-dark text-info" style="font-size: 25px;">View older projects<i> (WIP)</i></button>
+      </div>
+    </div>
+    <div class="row m-0 pb-4" id="documents">
+      <div class="col text-light title-style lead squish-center">
+        <b>Helpful Docs</b>
+      </div>
+    </div>
+    <div class="row m-0 pb-4">
+      <div class="col bg-dark text-light p-5 pt-4 rounded-3 squish-center">
+        <div class="row justify-content-center">
+          <div class="col col-auto">
+            <div class="row justify-content-center" style="font-size: 25px;">
+              <div class="col col-auto">
+                Resume
+              </div>
+            </div>
+            <div class="row justify-content-center">
+              <div class="col col-auto">
+                <a href="assets/Resume_DavidJarufe.pdf" target="_blank"><img class="rounded-3" style="width: 200px;" src="assets/resume_preview.png"/></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
     <div class="row m-0 pb-4" id="contact">
-      <div class="col text-light title-style lead mx-5">Contact</div>
+      <div class="col text-light title-style lead squish-center">
+        <b>Contact</b>
+      </div>
     </div>
     <div class="row m-0 pb-4 mb-5">
-      <div class="col bg-dark text-light mx-5 py-5">LinkedIn and stuff</div>
+      <div class="col bg-dark text-light p-5 rounded-3 squish-center">LinkedIn and stuff</div>
     </div>
   </div>
 </div>
