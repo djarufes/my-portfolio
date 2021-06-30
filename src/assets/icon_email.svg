@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="25px" height="19px" viewBox="0 0 25 19" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>email</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Full-Color" transform="translate(-100.000000, -303.000000)">
+            <g id="email" transform="translate(100.000000, 303.000000)">
+                <path d="M23.5,18.5 L1.5,18.5 C0.95,18.5 0.5,18.05 0.5,17.5 L0.5,1.5 C0.5,0.95 0.95,0.5 1.5,0.5 L23.5,0.5 C24.05,0.5 24.5,0.95 24.5,1.5 L24.5,17.5 C24.5,18.05 24.05,18.5 23.5,18.5" id="Fill-23" fill="#FFCC00"></path>
+                <path d="M23.5,18.5 L1.5,18.5 C0.95,18.5 0.5,18.05 0.5,17.5 L0.5,1.5 C0.5,0.95 0.95,0.5 1.5,0.5 L23.5,0.5 C24.05,0.5 24.5,0.95 24.5,1.5 L24.5,17.5 C24.5,18.05 24.05,18.5 23.5,18.5 Z" id="Stroke-25" stroke="#000000" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M23.5,16 C23.7738576,16 24,15.7738576 24,15.5 L25,15.5 L25,17.5 C25,18.3261424 24.3261424,19 23.5,19 L1.5,19 C0.673857625,19 0,18.3261424 0,17.5 L0,15.5 L1,15.5 C1,15.7738576 1.22614237,16 1.5,16 L23.5,16 Z" id="Stroke-29" fill="#000000" fill-rule="nonzero" opacity="0.239999995"></path>
+                <path d="M23.5,18.5 L1.5,18.5 C0.95,18.5 0.5,18.05 0.5,17.5 L0.5,1.5 C0.5,0.95 0.95,0.5 1.5,0.5 L23.5,0.5 C24.05,0.5 24.5,0.95 24.5,1.5 L24.5,17.5 C24.5,18.05 24.05,18.5 23.5,18.5 Z" id="Stroke-32" stroke="#000000" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M0.75,0.8399 L9.39,10.1509 C11.07,11.9599 13.93,11.9599 15.61,10.1509 L24.25,0.8399" id="Stroke-34" stroke="#000000" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M6.5,12.5 L0.79,18.21" id="Stroke-36" stroke="#000000" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M24.21,18.21 L18.5,12.5" id="Stroke-38" stroke="#000000" stroke-linecap="round" stroke-linejoin="round"></path>
+            </g>
+        </g>
+    </g>
+</svg>
